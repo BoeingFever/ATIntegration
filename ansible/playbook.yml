@@ -5,6 +5,11 @@
   become_method: sudo  
   
   tasks:
+  - name: Print message
+     ansible.builtin.debug:
+       msg: Hello world!
+  - name: Create new file
+     ansible.builtin.command: touch ~/test.txt
   - name: installing httpd
     package:
          name: httpd
