@@ -15,4 +15,4 @@ your current iam user have admin rights, have your iam user access key and secre
 
 Have your ssh key pair configured already on aws console.
 
-store the private key XXX.pem file for connecting to the ec2 you're going to provision on your current linux machine (local or itself also on cloud), on which terraform and ansible is running
+store the private key XXX.pem file on your currently using linux machine (no matter your machine is local or in cloud), the pem file is used for connecting to any ec2 you're going to provision later, on which terraform and ansible is running
